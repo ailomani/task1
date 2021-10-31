@@ -1,0 +1,102 @@
+page {
+  background: white;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {
+width: 21cm;
+height: 29.7cm;
+}
+p{
+margin: 0;
+padding: 0;
+}
+body{
+background-color:white;
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+margin: 0;
+padding: 0;
+}
+p{
+margin: 0;
+padding: 0;
+}
+.container{
+width: 90%;
+min-height:200px;
+margin-right: auto;
+margin-left: auto;
+}
+.brand-section{
+background-color:white;
+padding: 10px 40px;
+}
+.logo{
+width 50%;
+}
+.top{
+display: flex;
+flex-wrap: wrap;
+}
+.c-1{
+width: 50%;
+flex: 0 0 auto;
+background:white;
+}
+.c-details{
+float: right;
+text-align: right;
+}
+body-section{
+padding: 16px;
+border: 1px solid gray;
+}
+.heading
+{
+font-size: 20px;
+margin-bottom: 1px solid gray;
+}
+.sub-head{
+margin-bottom: 05px;
+}
+table{
+width: 100%;
+border-collapse: collapse;
+}
+table thread tr{
+border: 1px solid #111;
+}
+table td{
+vertical-align: middle !important;
+text-align: center;
+}
+table th,table td{
+padding-top:08px;
+padding-bottom:08x;
+}
+.table-border{
+box: 0px 0px 5px 0.10px gray;
+}
+.table-border td,.table-border th {
+border: 1px solid #dee2e6;
+}
+.text-right{
+text-align: end;
+}
+.w-20{
+width: 20%;
+}
+.float-right{
+float: right;
+}
+
+
+
+
+
